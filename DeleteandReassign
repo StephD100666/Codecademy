@@ -1,0 +1,14 @@
+zoo_animals = { 'Cyclops' : 'Volcano Exhibit',
+'Dragon' : 'Fire Lagoon', 
+'Tiger': 'Forest Exhibit', 
+'Rino': 'Savanna Exhibit',
+'Mermaid' : 'Ocean Exhibit',
+'Atlantic Puffin' : 'Arctic Exhibit',
+'Rockhopper Penguin' : 'Arctic Exhibit'}
+
+del zoo_animals['Cyclops']
+del zoo_animals['Dragon']
+del zoo_animals['Mermaid']
+zoo_animals['Rockhopper Penguin']= "Shoreline Exhibit"
+
+print (zoo_animals)
