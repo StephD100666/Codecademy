@@ -1,0 +1,20 @@
+def function_one():
+	if 2 == 2:
+		return "two equals two"
+
+def function_two():
+	if not 10<=5:
+		return "ten is not less or equal to five"
+	
+def function_three():
+	if 2 == 2 or 3>4:
+		return "or boolean"
+
+def function_four():		
+	if 2 == 2 and 4 == 4:
+		return "not, and, then or"
+	
+print (function_one())
+print (function_two())	
+print (function_three())
+print (function_four())
