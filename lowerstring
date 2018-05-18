@@ -1,0 +1,3 @@
+dog="Great Dane"
+print ("Great Dane".lower())
+# I can also use upper too if I was to say "great dane"
